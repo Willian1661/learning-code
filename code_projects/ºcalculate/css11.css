@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian&family=Raleway&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Noto Serif Georgian', serif;
+}
+
+.calc_body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fafafa;
+    box-shadow: 8px 6px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    width: 500px;
+}
+
+.js-result {
+    width: 460px;
+    background-color: #212121;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+    font-size: 2.5rem;
+    text-align: right;
+    user-select: none;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons button {
+    padding: 30px 20px;
+    background-color: #fafafa;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-align: center;
+    transition: .0.5s all linear;
+    border-radius: 4px;
+    user-select: none;
+}
+
+.buttons button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    opacity: .6;
+}
+
+.buttons button:active {
+    background-color: rgba(7, 7, 7, 0.3);
+}
+
+button.equal {
+    background-color: #005300;
+}
+
+button.equal:hover {
+    background-color: #005300;
+    opacity: .6;
+    border-radius: 4px;
+}
+
+button.equal:active {
+    background-color: rgba(7, 7, 7, 0.3);
+    transition: .0.5s all linear;
+}
+
+button.DEL {
+    background-color: #a31300;
+    border-radius: 0 0 4px 4px;
+}
+
+button.DEL:hover {
+    background-color: #a31300;
+    opacity: .6;
+    border-radius: 0 0 4px 4px;
+}
+
+button.js-btn-DEL:active {
+    background-color: rgba(7, 7, 7, 0.3);
+    transition: .0.5s all linear;
+}

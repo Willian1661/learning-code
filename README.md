@@ -6,7 +6,6 @@ Here are some examples of what i did:
 
 \\/
 
-
 1º Calculator: https://github.com/Willian1661/learning-code/tree/master/code_projects/%C2%BAcalculate
 <img src="zpictures/ºcalculate_examples/ºcalculate_examples2.png" width="290" height="170"> 
 <img src="zpictures/ºcalculate_examples/ºcalculate_examples03.png" width="250"> 
@@ -19,3 +18,17 @@ Here are some examples of what i did:
 2º Country Guide: https://github.com/Willian1661/learning-code/tree/master/code_projects/%C2%BAcountryGuide
 <img src="zpictures/ºcountry_guide_examples/ºcountryGuide1.png" width="230"> <img src="zpictures/ºcountry_guide_examples/ºcountryGuide3.png" width="230">
 <img src="zpictures/ºcountry_guide_examples/ºcountryGuide2.png" width="230"> <img src="zpictures/ºcountry_guide_examples/ºcountryGuide4.png" width="230">
+
+||
+
+\\/
+
+3º Resume structure example: https://github.com/Willian1661/learning-code/tree/master/code_projects/%C2%BAcurriculum
+
+!!Its based on eerison's project: https://github.com/shield-wall/CurriculumBundle !!
+
+<img src="zpictures/ºcurriculum_examples/ºcurriculum_example.png" width="280">
+
+||
+
+\\/

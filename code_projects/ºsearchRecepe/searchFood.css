@@ -6,10 +6,13 @@
 
 :root {
     --tawny: #d65108;
-    --tawny-dark: #b54507
+    --tawny-dark: #b54507;
 }
 
 body {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+        url('https://bartzmoveis.com.br/wp-content/uploads/cozinha-planjeada-com-floreira-suspensa.jpg'),
+        center/cover no-repeat;
     font-weight: 300;
     font-size: 1.05em;
     line-height: 1.6em;
@@ -36,9 +39,17 @@ body {
 .container {
     min-height: 100vh;
 }
-
+/*full meal-wrapper*/
 .meal-wrapper {
-    max-width: 1240px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #fff;
+    text-align: center;
+}
+/*meal-wrapper not full*/
+.mealWrapperNotFull{
+    max-width: 90%;
     margin: 0 auto;
     padding: 2rem;
     background: #fff;
@@ -96,7 +107,23 @@ body {
 }
 
 .meal-result {
-    margin-top: 2.4rem 0;
+    margin-top: 2rem 0;
+}
+.meal-result .title{
+    color: red;
+    padding: 4px;
+    width: 550px;
+    background: linear-gradient(to right, var(--tawny), var(--tawny)50%, #000000 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 1s ease;
+    margin: 2rem auto;
+}
+.meal-result .title:hover{
+    background-position: 0 100%;
 }
 
 .meal-item {
@@ -172,6 +199,7 @@ body {
     display: block;
 }
 
+
 .meal-detail-content {
     margin: 2rem;
 }
@@ -208,7 +236,23 @@ body {
 .recepe-title {
     letter-spacing: 1px;
     padding-bottom: 1.5rem;
+}
 
+.meal-search .title {
+    padding: 4px;
+    width: 550px;
+    background: linear-gradient(to right, var(--tawny), var(--tawny)50%, #000000 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 1s ease;
+    margin: 2rem auto;
+}
+
+.meal-search .title:hover {
+    background-position: 0 100%;
 }
 
 .recepe-category {

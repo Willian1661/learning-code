@@ -58,12 +58,13 @@ function getMealRecipe(e) {
 function mealRecipeModal(meal) {
     console.log(meal);
     meal = meal[0];
+    var textos = meal.strInstructions.replace(/STEP/g,"\nSTEP")
     let html = "";
     html += `
     <h2 class="recepe-title">${meal.strMeal}</h2>
     <p class="recepe-category">${meal.strCategory}</p>
     <h3 class="recepe-instructions">intructions:</h3>
-    <p>${meal.strInstructions}</p>
+    <p>${textos}</p>
 </div>
 <div class="recepe-meal-img">
     <img src="${meal.strMealThumb}" alt="${meal.strMeal}">
@@ -80,5 +81,6 @@ function mealRecipeModal(meal) {
 searchKey.addEventListener('keydown', (e) => {
     if (e.keyCode == 13) {
         getMealList();
+        console.log(e);
     }
 })

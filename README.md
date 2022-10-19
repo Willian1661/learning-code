@@ -3,8 +3,8 @@ This repository will be for me add what i am currently learning, examples of thi
 Here are some examples of what i did:
 
 **1º Slide shop: https://github.com/Willian1661/learning-code/tree/master/code_projects/%C2%BAslideshop**
-<img src="zpictures/ºslideShope_examples/ºslideshop_examples1.png" width="290"> <img src="zpictures/ºslideShope_examples/ºslideshop_examples3.png" width="290">
-<img src="zpictures/ºslideShope_examples/ºslideshop_examples4.png" width="290">
+<img src="zpictures/ºslideShope_examples/ºslideshop_examples1.png" width="280"> <img src="zpictures/ºslideShope_examples/ºslideshop_examples3.png" width="280">
+<img src="zpictures/ºslideShope_examples/ºslideshop_examples4.png" width="280">
 ## Front end:
 - HTML / CSS / JS 
 
@@ -17,6 +17,7 @@ Here are some examples of what i did:
 <hr>
 
 **2º Search Recepe: https://github.com/Willian1661/learning-code/tree/master/code_projects/%C2%BAsearchRecepe**
+
 <img src="zpictures/ºsearchRecepe/SearchRecepe1.png" width="240"> <img src="zpictures/ºsearchRecepe/SearchRecepe2.png" width="240">
 <img src="zpictures/ºsearchRecepe/SearchRecepe4.png" width="240"> <img src="zpictures/ºsearchRecepe/SearchRecepe5.png" width="240">
 ## Front end:

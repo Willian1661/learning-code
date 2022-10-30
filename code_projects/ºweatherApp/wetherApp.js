@@ -26,7 +26,7 @@ optionList.forEach(o => {
 
 
 // variavies
-const apiKey = "ef1d8bff34781f5f3ef90c891dada4ce";
+const apiKey = "";
 const apiCountryUrl = "https://countryflagsapi.com/png/";
 const apiUnsPlash = "https://source.unsplash.com/1600x900/?";
 

@@ -76,9 +76,9 @@ const getWetherData = async (city) => {
 const showError = () => {
     errorMessage.classList.remove("hide");
     errorMessage.innerHTML = `
-    <p>Não foi possível encontrar o clima da cidade <b>${cityInput.value}<b>.</p>
+    <p>We couldn't find the city <b>${cityInput.value}<b>.</p>
     <br>
-    <p>Tente novamente</p>
+    <p>Try again</p>
     `
 };
 

@@ -17,6 +17,7 @@ Here are some examples of what i did:
 <hr>
 
 **2º Weather app: https://github.com/Willian1661/learning-code/tree/master/code_projects/%C2%BAweatherApp**
+
 <img src="zpictures/ºweather_app/ºweatherApp1.png" width="240"> <img src="zpictures/ºweather_app/ºweatherApp2.png" width="240">
 <img src="zpictures/ºweather_app/ºweatherApp3.png" width="240"> <img src="zpictures/ºweather_app/ºweatherApp4.png" width="240">
 ## Front end:

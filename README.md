@@ -8,8 +8,6 @@ Here are some examples of what i did:
 ## Front end:
 - HTML / CSS / JS 
 
-- Jquery
-
 - API
 
 - Slick Carrousel
@@ -33,8 +31,6 @@ Here are some examples of what i did:
 <img src="zpictures/ºsearchRecepe/SearchRecepe4.png" width="240"> <img src="zpictures/ºsearchRecepe/SearchRecepe5.png" width="240">
 ## Front end:
 - HTML / CSS / JS 
-
-- Jquery
 
 - API
 
@@ -62,8 +58,6 @@ Here are some examples of what i did:
 <img src="zpictures/ºcountry_guide_examples/ºcountryGuide2.png" width="230"> <img src="zpictures/ºcountry_guide_examples/ºcountryGuide4.png" width="230">
 ## Front end:
 - HTML / CSS / JS 
-
-- Jquery
 
 - API
 

@@ -41,4 +41,3 @@ foreach ($data as $key => $value) {
 }
 
 curl_close($curl);
-?>

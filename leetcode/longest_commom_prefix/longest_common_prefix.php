@@ -1,7 +1,7 @@
 <?php
 class Solution
 {
-    protected function longestCommonPrefix(array $strs): string
+    protected function longestCommonPrefix(array $strs)
     {
         if (empty($strs)) { // return null values if it gets a empty array
             return "";

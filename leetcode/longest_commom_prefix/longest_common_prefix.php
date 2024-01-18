@@ -1,33 +1,24 @@
 <?php
 class Solution
 {
-    protected function longestCommonPrefix(array $strs)
+    protected function longestCommonPrefix(array $strings)
     {
-        if (empty($strs)) { // return null values if it gets a empty array
-            return "";
+        if (empty($strings) || count($strings) <= 1) { // return null values if it gets a empty array
+            return "\nresult: [\"" . implode($strings) . "\"]\n";
         }
 
-        sort($strs); // sort the elements from the lower to greater
-
-
-        $firstStr = $strs[0]; //get the first element from the sort
-        $lastStr = $strs[count($strs) - 1]; //get the last element from the sort
+        sort($strings); // sort the elements from the lower to greater
+        $firstString = $strings[0]; //get the first element from the sort
+        $lastString = $strings[count($strings) - 1]; //get the last element from the sort
 
         $commonPrefix = ""; // variable to concat the prefixes
-        $minLength = min(strlen($firstStr), strlen($lastStr)); // get the minimal string length for LOOP
 
-
-        for ($i = 0; $i < $minLength; $i++) { //loop to run the minimal string length, to get from the llower string
-            if ($firstStr[$i] == $lastStr[$i]) { // if the character is equal to other
-
-                $commonPrefix .= $firstStr[$i]; // concat the prefixes
-            } else {
-
-                break; // break the process.
+        for ($i = 0; $i < strlen($firstString); $i++) { //loop to run the minimal string length, to get from the llower string
+            if ($firstString[$i] != $lastString[$i]) { // if the character is equal to other
+                return "\nresult: [\"" . $commonPrefix . "\"]\n";
             }
+            $commonPrefix .= $firstString[$i]; // concat the prefixes
         }
-
-        return "[\"" . $commonPrefix . "\"]\n";
     }
 }
 
@@ -35,12 +26,13 @@ class Print_solution extends Solution
 {
     public function print_longestCommonPrefix($strings)
     {
-       echo $this->longestCommonPrefix($strings);
+        return $this->longestCommonPrefix($strings);
     }
 }
-$strs1 = ["flower", "flow", "flight"];
-$strs2 = ["dog", "racecar", "car"];
+
+$strings1 = ["flower", "flow", "flight"];
+$strings2 = ["dog", "racecar", "car"];
 
 $resolution = new Print_solution();
-$resolution->print_longestCommonPrefix($strs1);
-$resolution->print_longestCommonPrefix($strs2);
+$callplp = $resolution->print_longestCommonPrefix($strings1);
+// $resolution->print_longestCommonPrefix($strings2);

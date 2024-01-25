@@ -6,7 +6,7 @@ class Solution
         for ($i = 0; $i < count($nums); $i++) {
             for ($j = $i + 1; $j < count($nums); $j++) {
                 if (($nums[$i] + $nums[$j]) == $target) {
-                    echo "primeiro valor: " . $i . "\nsegundo valor: " . $j;
+                    echo "primeiro index: " . $i . "\nsegundo index: " . $j . "\n";
                     echo "valor da soma dos elementos: " . $nums[$i] + $nums[$j] . "\n";
                     return [$i, $j];
                 }

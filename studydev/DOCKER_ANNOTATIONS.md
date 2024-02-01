@@ -105,3 +105,10 @@ docker network rm <network_id>
 Replace <network_id> with the actual network ID.
 
 after all this process a could run my container again :p.
+
+### 5. reset your docker service
+> !! only if necessary when your docker container still got an error on your local host
+
+```
+sudo service docker restart
+```

@@ -19,4 +19,8 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 first possibility:
 you need to access the element of the array and the next element, for exemple => [3,6,11,5] (in this array you can run the current and the next elemet).
 
-See here the  problem: [leetcode](https://leetcode.com/problems/two-sum)
+
+## CREATE/POST your resolution:
+
+- Create a file in this current Directory and add your resolution.
+> See here the  problem: [leetcode](https://leetcode.com/problems/two-sum)

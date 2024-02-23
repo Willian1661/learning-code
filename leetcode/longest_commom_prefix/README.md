@@ -25,4 +25,7 @@ Constraints:
 0 <= strs[i].length <= 200
 strs[i] consists of only lowercase English letters.
 
-See here the problem: [leetcode](https://leetcode.com/problems/longest-common-prefix)
+## CREATE/POST your resolution:
+
+- Create a file in this current Directory and add your resolution.
+> See here the problem: [leetcode](https://leetcode.com/problems/longest-common-prefix);

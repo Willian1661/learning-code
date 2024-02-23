@@ -48,4 +48,8 @@ Constraints:
 nums is sorted in non-decreasing order.
 
 
-See here the problem: [leetcode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
+
+## CREATE/POST your resolution:
+
+- Create a file in this current Directory and add your resolution.
+> See here the problem: [leetcode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)

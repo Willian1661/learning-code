@@ -1,3 +1,5 @@
 host/
 server/
-.vscode
+.vscode/
+annotations/
+scratch_projects/

@@ -42,4 +42,4 @@ nums2.length == n
 ## CREATE/POST your resolution:
 
 - Create a file in this current Directory and add your resolution.
-> See here the  problem: [leetcode](https://leetcode.com/problems/remove-element)
+> See here the  problem: [leetcode](https://leetcode.com/problems/merge-sorted-array/)
